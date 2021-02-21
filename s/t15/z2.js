@@ -43,7 +43,7 @@ function changeLastName(new_lastname){
     
 }
 function changeAge(new_age){
-    if(typeof new_age === number){
+    if(typeof new_age === `number`){
 
     user.age = new_age;
     
